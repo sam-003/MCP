@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { faker } from '@faker-js/faker';
 import {Page} from '@playwright/test';
 test.describe('Authentication Tests', () => {
   test.beforeEach(async ({ page }) => {
